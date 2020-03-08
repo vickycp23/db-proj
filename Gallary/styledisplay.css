@@ -1,0 +1,136 @@
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .ro1{
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+section{
+ margin-top:72px;
+}
+.iimage{
+    width:200px;
+}
+.dis1{
+
+    width:1330px;
+    height: 276px;
+    background-color: burlywood;
+    margin-bottom: 10px;
+
+}
+
+.rforms{
+  
+}
+.forms{
+    margin-left:450px;
+}
+.submit{
+
+    background-image: url(images/he2.png);
+    width: 29px;
+    background-repeat: no-repeat;
+    height: 27px;
+    background-color: transparent;
+    border: none;
+
+}
+.delete{
+    background-image: url(images/de4.png);
+    width: 29px;
+    background-repeat: no-repeat;
+    height: 27px;
+    background-color: transparent;
+    border: none;
+}
+.b1{
+
+    background-color: silver;
+    width: 400px;
+    height: 21px;
+    
+
+}
+.b2{
+
+
+    width: 23px;
+    height: 22px;
+    margin-left: 60px;
+
+}
+.rr{
+    width: 23px;
+    height: 22px;
+    margin-top: -23px;
+    margin-left: 158px;
+}
+
+
+.submit:hover{
+    background-color: paleturquoise;
+    color: blue;
+    height: 22px;
+    width: 25px;
+
+}
+
+.iimage:hover{
+    background-color: transparent;
+}
+
+.video1{
+    width: 300px;
+     height: 250px;
+     padding: 0;
+     margin-top: 75px;
+     margin-left:-102px;
+ }
+
+ 

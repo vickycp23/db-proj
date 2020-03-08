@@ -1,0 +1,74 @@
+header{
+    position: fixed;
+    top:0;
+}
+
+.divcl{
+    width: 1080px;
+    height: 40px;
+}
+ul{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+ul li{
+     float: left;
+     width: 100px;
+     height: 30px;
+     
+     
+     line-height: 40px;
+     text-align: center;
+     font-size: 20px;
+     
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+ul li a:hover{
+    background-color: green;
+
+}
+ul li ul li{
+    display: none;
+    
+}
+ul li:hover ul li{
+    display: block;
+    
+    
+}
+.uli ,.ulii{
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+.uli ,.ulii :hover{
+    background-color: green;
+
+}
+h3{
+    color: black;
+    float: right;
+     width: 100px;
+     height: 30px;
+     
+     
+     line-height: 30px;
+     text-align: center;
+     font-size: 20px;
+}
+.f{
+
+position: absolute;
+top: 40%;
+left: 30%;
+margin-top: -150px;
+margin-left: -150px;
+
+
+
+}
